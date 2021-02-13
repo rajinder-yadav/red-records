@@ -1,0 +1,27 @@
+{
+  "name": "red-records",
+  "version": "1.0.0",
+  "description": "Red Records is a music label that got famous with the vinyl comeback. It operates in both the United States and the United Kingdom with offices in New York and in London. In this liveProject, you’ll step into the role of a Frontend Tech Lead for Red Records and solve an organizational and technological challenge using micro frontends.",
+  "main": "main.js",
+  "directories": {},
+  "scripts": {
+    "build": "parcel build",
+    "dev": "parcel -p 3030 index.html",
+    "dev:watch": "parcel watch index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rajinder-yadav/red-records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rajinder-yadav/red-records/issues"
+  },
+  "homepage": "https://github.com/rajinder-yadav/red-records#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
