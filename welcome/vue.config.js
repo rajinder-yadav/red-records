@@ -6,4 +6,5 @@
 module.exports = {
   // options...
   outputDir: '../build/mfe/welcome',
+  publicPath: '/mfe/welcome/',
 }
