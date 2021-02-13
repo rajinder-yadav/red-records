@@ -5,7 +5,8 @@
   "main": "main.js",
   "directories": {},
   "scripts": {
-    "build": "parcel build",
+    "build": "parcel build index.html",
+    "postbuild": "mv dist/* build/",
     "dev": "parcel -p 3030 index.html",
     "dev:watch": "parcel watch index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
